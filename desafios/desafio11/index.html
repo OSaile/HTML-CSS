@@ -9,17 +9,23 @@
             margin: 0;
             padding: 0;
         }
-        .fundo{
-            min-height: 100vh;
-            display: flex;
+        body{
+            background-color: blackggit;
+            background-image: url(espaco.jpg);
+            position: relative;
+            height: 100vh;
         }
-        .astronauta{
-            
+        #astronauta{
+            position: absolute;
+            height: 100vh;
+
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
         }
     </style>
 </head>
 <body>
-    <div class="espaço"><img src="espaco.jpg" alt="Espaço"></div>
-    <img src="astronauta.png" alt="astronauta" class="astronauta">
+<section><img src="astronauta.png" alt="astronauta" id="astronauta"></section>   
 </body>
 </html>
