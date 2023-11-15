@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela{
+            height: 400px;
+            width: 95vw;
+            border: 2px solid black;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça um escolha</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam similique aperiam laudantium, nesciunt vel labore molestiae animi aliquam soluta consectetur. Voluptatibus reprehenderit labore facere sapiente nulla consequatur nobis libero doloremque.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet ullam laudantium sint consectetur. Vero, soluta temporibus. Vitae totam asperiores veritatis, dignissimos perferendis, tempora error magnam saepe quaerat reiciendis et aliquam?</p>
+    <iframe srcdoc="
+        <h1>Escolha um das opções acima<h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id laborum consequuntur eveniet magnam repudiandae alias doloremque a commodi. Quod laborum dolorum voluptatum quisquam cumque officiis, expedita numquam minima doloribus fugit!<p>
+        <img src='https://www.cursoemvideo.com/wp-content/uploads/2019/08/cursoemvideo-logo.png' height=50px>" id="tela" name="frame">
+        <p>Infelizmente seu navegador não é compatível.</p>
+    </iframe>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, illum nemo. Animi, unde quidem perferendis aliquam quos dolorum vero magnam nisi voluptas praesentium voluptate qui at amet laborum dicta perspiciatis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consequatur quod accusamus, ea aliquam beatae nisi ad nostrum quas nobis id fugiat eveniet numquam reiciendis possimus alias consectetur pariatur veniam!</p>
+</body>
+</html>
